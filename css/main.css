@@ -1,0 +1,136 @@
+/**Bases Styles**/
+body {
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+}
+
+img {
+  width: 100%;
+}
+
+#projects, #contact {
+  display: flex;
+}
+
+/**Header**/
+header {
+  height: 500px;
+  background: url('../img/hero-image.jpeg');
+  background-size: cover;
+  margin: 0;
+}
+
+h1 {
+  font-family: 'Source Sans Pro', sans-serif;
+  text-align: center;
+  color: #45593B;
+  padding: 250px;
+  font-size: 36pt;
+  margin: 0;
+}
+
+nav {
+  float: right;
+  padding-bottom: 25px;
+  font-size: 14pt;
+}
+
+nav ul li {
+  display: inline-block;
+  padding: 25px 50px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #45593B;
+}
+
+/**Projects**/
+#projects .full-width {
+  background-color: #D7D9D8;
+  display: inline-block;
+  clear: both;
+  margin: 0;
+  text-align: center;
+}
+
+#projects .half-width img {
+  width: 500px;
+  margin: 50px;
+  border: 1px solid grey;
+}
+
+#projects .half-width {
+  float: left;
+}
+
+#projects h2 {
+  color: #45593B;
+  margin: 0;
+  padding: 50px;
+  text-align: center;
+}
+
+#projects h3, p {
+  padding: 25px;
+  color: #45593B;
+  word-spacing: 3px;
+}
+
+span {
+  font-weight: bold;
+}
+
+/** Contact **/
+#contact {
+  background-color: #D9B282;
+}
+
+
+#headshot {
+  width: auto;
+  display: block;
+  margin: 0 auto;
+  padding: 0;
+}
+
+#social-contact img {
+  width: auto;
+  padding-right: 25px;
+}
+
+#social-contact ul li {
+  display: inline-block;
+}
+
+#contact .third-width {
+  float: left;
+  display: block;
+  width: 495px;
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 25px;
+}
+
+#contact h2 {
+  text-align: center;
+}
+
+.third-width h2, h3 {
+  color: #45593B;
+}
+
+#email-contact h3{
+  padding-top: 15px;
+}
+
+#email-contact img {
+  width: auto;
+  padding-right: 10px;
+}
+
+#email-contact a {
+  text-decoration: none;
+  color: #45593B;
+}
